@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #1f1d1d;
+  color: #fff;
+}
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: auto;
+  height: 700px;    
+  margin-top: 60px;
+  margin-left: 60px;
+  background: #2d2c2c;
+  padding: 2rem 1rem;
+  border-radius: 10px;
+  border: 2px solid #f5d76e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+}
+
+.profile-img {
+  width: 180px;
+  height: 180px;
+  border-radius: 21px;
+  border: 2px solid #FFF588;
+}
+
+.sidebar h2 {
+  font-size: 1.4rem;
+  margin: 0.5rem 0;
+  font-weight: bold;
+  color: #FAF1B5;
+}
+
+.titlebase{
+    width: 200px;
+    height: 34px;
+    border: 2px solid #fff588;
+    background: #4c4949;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.titlebase .title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contact_container{
+    width: 260px;
+    height: 500px;
+    border: 2px solid #fff588;
+    background: #4c4949;
+    display: flex;
+    border-radius: 10px;
+    margin-top: 15px;
+    position: relative;
+}
+.contact_container a{
+    cursor: pointer;
+    text-decoration: none;
+} 
+.contact_container .contact_info .tag_name{
+    margin-top: 8px;
+    color: #DEDC81;
+} 
+
+.contact_container .contact_info .tag_name img{
+    width: 20px;
+    margin-left: 10px;
+}
+
+.contact_container .contact_info p{
+    font-size: 16px;
+    margin-left: 30px;
+    /* margin-top: 10px; */
+    width: 210px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: #1E1D1D;
+    color: #f5d76e;
+}
+
+.main-content {
+  flex: 1;
+  padding: 2rem;
+}
+
+.main-content .main_container{
+  width: 1050px;
+  height: fit-content;    
+  margin-left: 400px;
+  margin-top: 28px;
+  background: #2d2c2c;
+  border-radius: 10px;
+  border: 2px solid #f5d76e;
+  position: fixed;
+}
+
+.top-nav{
+  width: 550px;
+  height: 50px;
+  background: #4C4949;
+  border-radius: 0px 7px 0px 10px;
+  border: 2px solid #f5d76e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-nav ul{
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+  font-size: 20px;
+  font-weight: bold;
+}
