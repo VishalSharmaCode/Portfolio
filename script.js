@@ -29,6 +29,18 @@ window.addEventListener('load', () => {
   highlightBox.style.left = (rect.left - navRect.left) + 'px';
 });
 
-// console.log(navItems);
-// console.log(contents);
-// console.log(highlightBox);
+const projectTabs = document.querySelectorAll('.project-nav li');
+const projectSections = document.querySelectorAll('.pp-slide');
+
+projectTabs.forEach(tab => {
+  tab.addEventListener('click', () => {
+    // Remove active class from all tabs and sections
+    projectTabs.forEach(t => t.classList.remove('active'));
+    projectSections.forEach(sec => sec.classList.remove('active'));
+
+    // Add active to selected tab and its content
+    tab.classList.add('active');
+    const target = tab.getAttribute('data-target');
+    document.getElementById(target).classList.add('active');
+  });
+});
