@@ -196,7 +196,7 @@ body {
 
 .about-me .about-skills{
   width: 95%;
-  height: 550px;
+  height: fit-content;
   border: 2px solid #fff558;
   border-radius: 10px;
   margin-left: 30px;
@@ -214,19 +214,16 @@ body {
 .skills-content{
   width: 95%;
   margin: 0 auto;
-  height: 80px;
+  height: fit-content;
   border: 2px solid #fff558;
   border-radius: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   margin-top: 10px;
   background-color: #292727;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .skills-content .sc{
-  font-size: 16px;
+  font-size: 14px;
   margin: 10px;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -237,7 +234,7 @@ body {
   display:flex;
   margin: auto;
   margin-top: 20px;
-  border: 2px solid white;
+  border: 2px solid #fff558;
   border-radius: 10px 10px 0px 0px;
   background-color: #4c4949;
   border-bottom: none;
@@ -266,7 +263,7 @@ margin: auto;
 }
 
 .project-nav ul li:hover{
-  transform: scale(1.15);
+  /* transform: scale(1.15); */
   background-color:#292727;
   color: #FFF588;
 }
@@ -278,10 +275,9 @@ margin: auto;
 }
 
 .project-content {
-  position: relative;
-  height: 200px; /* adjust based on content */
+  position: relative; 
   width: 1000px;
-  height: 300px;
+  height: 680px;
   border: 2px solid #fff558;
   border-radius: 10px;
   margin: auto;
@@ -301,3 +297,65 @@ margin: auto;
   transform: translateX(0);
   z-index: 1;
 }
+
+.project-content .pp-slide h3{
+  font-size: 20px;
+  margin:10px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+.project-content .pp-slide .introduction-part{
+  width: 95%;
+  height:fit-content;
+  border: 2px solid #fff558;
+  margin: auto;
+  border-radius: 10px;
+  background-color: #4C4949;
+}
+.project-content .pp-slide .introduction-part p{
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px;
+}
+.project-content .pp-slide .features-part{
+  width: 95%;
+  height:fit-content;
+  border: 2px solid #fff558;
+  margin: auto;
+  border-radius: 10px;
+  background-color: #4C4949;
+}
+
+.project-content .pp-slide .features-part p{
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px;
+}
+
+.project-content .pp-slide .features-part li{
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 40px;
+  list-style:decimal;
+}
+
+.project-content .pp-slide .techUsed-part{
+    width: 95%;
+  height:fit-content;
+  border: 2px solid #fff558;
+  margin: auto;
+  border-radius: 10px;
+  background-color: #4C4949;
+}
+
+.project-content .pp-slide .techUsed-part p{
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px;
+}
+
