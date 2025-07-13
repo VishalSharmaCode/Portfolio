@@ -2,7 +2,12 @@ const navItems = document.querySelectorAll('.navbar li');
 const contents = document.querySelectorAll('.content-section');
 const highlightBox = document.getElementById('highlight-box');
 
+console.log(navItems);
+console.log(contents);
+
 navItems.forEach(item => {
+  console.log('items in nav list:>',item);
+  console.log('Inner Content:>',item.textContent);
   item.addEventListener('click', () => {
     // Activate nav item
     navItems.forEach(el => el.classList.remove('active'));
@@ -44,3 +49,6 @@ projectTabs.forEach(tab => {
     document.getElementById(target).classList.add('active');
   });
 });
+
+const placeHolder = document.querySelectorAll(".inputText")
+console.log(placeHolder.values)

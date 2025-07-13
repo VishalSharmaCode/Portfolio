@@ -359,3 +359,92 @@ margin: auto;
   margin: 10px;
 }
 
+.my-contact{
+  width: 90%;
+  height: fit-content;
+  border: 2px solid #FFBF00;
+  border-radius: 10px;
+  background-color: #605e5e;
+  margin:50px auto;
+  display: grid;
+  place-items: center;
+}
+
+.my-contact h1{
+  margin: 20px;
+  margin-right: 650px;
+  color: #FAF1B5;
+}
+
+.my-contact .takeInput{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.my-contact .inputText{
+  width: 295px;
+  height: 40px;
+  border: 2px solid #C5C1C1;
+  border-radius: 5px;
+  background-color: transparent;
+  outline: none;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffff
+
+}
+
+.my-contact .msgBox #msg{
+  width: 600px;
+  height: 300px;
+  border: 2px solid #C5C1C1;
+  border-radius: 5px;
+  background-color: transparent;
+  outline: none;
+  padding: 10px;
+  font-size: 20px;
+  color: #ffff;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding-bottom: 15rem;
+  padding-left: 10px;
+  position: relative;
+  size: 30rem;
+}
+
+.my-contact .msgSend{
+  width: 200px;
+  height: 50px;
+  outline: none;
+  border-radius: 5px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  border: 2px solid #4C4949;
+  background-color: #313030;
+  margin-left: 400px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.my-contact .msgSend:hover{
+  transform: scale(1.05);
+  background-color: #16b391;
+}
+
+
+.my-contact .msgSend img{
+  width: 30px;
+  height: 30px ;
+  margin: 10px;
+}
+.my-contact .msgSend p{
+  font-size: 18px;
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f5d76e;
+}
+
+
