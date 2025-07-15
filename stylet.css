@@ -100,7 +100,7 @@ body {
 
 .main_container {
   width: 1050px;
-  height: 900px;
+  height: 720px;
   margin-left: 400px;
   margin-top: 25px;
   background: #292727;
@@ -109,7 +109,7 @@ body {
   padding: 40px;
   position: relative;
   overflow: hidden;
-
+ 
 }
 
 .navbar {
@@ -179,17 +179,17 @@ body {
 .Intro{
     width: fit-content;
     height: fit-content;
-    font-size: 16px;
+    font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 70px;
-    margin-top: 15px;
+    margin-top: 10px;
     margin-right: 30px;
     font-style: italic;
 }
 
 .about-me h3{
   font-size: 20px;
-  margin:15px;
+  margin-top:10px;
   margin-left: 30px;
   font-weight: 800;
 }
@@ -217,7 +217,7 @@ body {
   height: fit-content;
   border: 2px solid #fff558;
   border-radius: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   margin-top: 10px;
   background-color: #292727;
 }
@@ -277,7 +277,7 @@ margin: auto;
 .project-content {
   position: relative; 
   width: 1000px;
-  height: 680px;
+  height: 520px;
   border: 2px solid #fff558;
   border-radius: 10px;
   margin: auto;
@@ -344,7 +344,7 @@ margin: auto;
 }
 
 .project-content .pp-slide .techUsed-part{
-    width: 95%;
+  width: 95%;
   height:fit-content;
   border: 2px solid #fff558;
   margin: auto;
@@ -359,92 +359,263 @@ margin: auto;
   margin: 10px;
 }
 
-.my-contact{
-  width: 90%;
-  height: fit-content;
-  border: 2px solid #FFBF00;
+.project-content .pp-slide .techUsed-part li{
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+  margin-left: 40px;
+  list-style:decimal;
+}
+
+
+.pp-slide .about-others{
+  width: 95%;
+  height: auto;
+  border: 2px solid #fff558;
   border-radius: 10px;
-  background-color: #605e5e;
-  margin:50px auto;
-  display: grid;
-  place-items: center;
+  background: #4C4949;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-.my-contact h1{
+.other-projects{
   margin: 20px;
-  margin-right: 650px;
-  color: #FAF1B5;
+  
+}
+.pp-slide .about-others ul{
+  list-style: decimal;
+  margin: 20px;
+}
+.pp-slide .about-others strong{
+  color: #dedc81;
 }
 
-.my-contact .takeInput{
+.edu-logo{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-left: 10px;
+}
+.edu-logo .education-image{
+  width: 20px;
+}
+.edu-logo h1{
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.education-detail{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.education-section .course-detail{
+  width: 280px;
+  height: 130px;
+  border: 2px solid #fff558;
+  border-radius: 8px;
+  background-color: #6C6464;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.course-detail p{
+  margin-left: 10px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.technical-skills-resume h1{
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.tech-stack-box{
+  width: 95%;
+  height: 170px;
+  border: 2px solid #fff558;
+  border-radius: 10px;
+  margin: 0 auto;
+  background-color: #6C6464;
+  font-size: 16px;
+}
+
+.tech-stack-box ul{
+  margin-top: 10px;
+  margin-left: 20px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.achive-certificates{
+  display: flex;
+  gap: 350px;
+}
+
+.achive-certificates h1{
+  font-size: 20px;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+.achiveAndCerti{
+  display: flex;
+  margin-left: 20px;
+  gap: 80px;
+}
+
+.achive{
+  width: 420px;
+  min-height: 75px;
+  background-color: #4C4949;
+  border: 2px solid #fff558;
+  border-radius: 8px;
+  margin-left: 10px;
+  padding: 10px;
+  display: block;
+}
+
+.achive ul{
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+}
+
+.achive ul a{
+  text-decoration: underline;
+  color: #FFF588;
+  cursor: pointer;
+}
+
+.achive ul li a {
+  pointer-events: auto !important;
+  cursor: pointer !important;
+  z-index: 9999;
+  position: relative;
+}
+.achive ul li a:hover {
+  color: #dedc81;
+}
+
+
+.leader h1{
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.leader-section{
+  width: 95%;
+  height: 80px;
+  border: 2px solid #fff558;
+  border-radius: 10px;
+  margin: 5px auto;
+  background-color: #4C4949;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leader-section ul{
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+
+.download-button {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.download-button .btn{
+  margin-top: 10px;
+}
+.download-button .btn a{
+  width: 150px;
+  height: 40px;
+  border: 2px solid black;
+  background-color: #fff558;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  pointer-events: auto !important;
+  cursor: pointer !important;
+  z-index: 9999;
+  position: relative;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  transition: .3s;
+}
+
+.download-button .btn a:hover{
+  transform: scale(1.05);
+  color: white;
+  background-color: black;
+}
+
+.my-contact{
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  margin-top: 70px;
+}
+.cont{
+  width: 80%;
+  height: 32rem;
+  border: 2px solid;
+  border-radius: 10px;
+  background-color: #6C6464;
 }
 
-.my-contact .inputText{
-  width: 295px;
-  height: 40px;
-  border: 2px solid #C5C1C1;
-  border-radius: 5px;
-  background-color: transparent;
-  outline: none;
-  padding: 10px;
-  font-size: 20px;
-  font-weight: bold;
-  color: #ffff
-
-}
-
-.my-contact .msgBox #msg{
-  width: 600px;
-  height: 300px;
-  border: 2px solid #C5C1C1;
-  border-radius: 5px;
-  background-color: transparent;
-  outline: none;
-  padding: 10px;
-  font-size: 20px;
-  color: #ffff;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  padding-bottom: 15rem;
-  padding-left: 10px;
-  position: relative;
-  size: 30rem;
-}
-
-.my-contact .msgSend{
-  width: 200px;
-  height: 50px;
-  outline: none;
-  border-radius: 5px;
+.details-contact{
   display: flex;
-  /* justify-content: center; */
+  gap: 16rem;
+}
+.details-contact h1{
+  font-size: 25px;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+
+.input-fields{  
+  display: flex;
+  gap: 5rem;
+}
+.input-fields input{
   align-items: center;
-  border: 2px solid #4C4949;
-  background-color: #313030;
-  margin-left: 400px;
-  margin-bottom: 20px;
-  cursor: pointer;
-}
-.my-contact .msgSend:hover{
-  transform: scale(1.05);
-  background-color: #16b391;
-}
-
-
-.my-contact .msgSend img{
-  width: 30px;
-  height: 30px ;
-  margin: 10px;
-}
-.my-contact .msgSend p{
-  font-size: 18px;
-  font-weight: 800;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #f5d76e;
+  margin-left: 25px;
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  border: 2px solid white;
+  padding: 10px;
+  font-size: 20px;
+  outline: none;
+  background: transparent;
 }
 
+.Your-message{
+  font-size: 25px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
 
+.msg .msgBox{
+  width: 85%;
+  height: 300px;
+  border: 2px solid #292727;
+  border-radius: 10px;
+  margin-left: 28px;
+  outline: none;
+  padding: 10px;
+}
