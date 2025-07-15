@@ -107,7 +107,7 @@ body {
   border-radius: 10px;
   border: 2px solid #FFF588;
   padding: 40px;
-  position: relative;
+  position: fixed;
   overflow: hidden;
  
 }
@@ -238,6 +238,8 @@ body {
   border-radius: 10px 10px 0px 0px;
   background-color: #4c4949;
   border-bottom: none;
+  position: relative;
+  z-index: 2;
 }
 .project-nav ul{
 display: flex;
@@ -572,9 +574,12 @@ margin: auto;
 .cont{
   width: 80%;
   height: 32rem;
-  border: 2px solid;
+  border: 2px solid #fff558;
   border-radius: 10px;
   background-color: #6C6464;
+  overflow: visible;
+  position: relative;
+  z-index: 1;
 }
 
 .details-contact{
@@ -584,7 +589,7 @@ margin: auto;
 .details-contact h1{
   font-size: 25px;
   margin-left: 30px;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .input-fields{  
@@ -597,7 +602,7 @@ margin: auto;
   width: 300px;
   height: 40px;
   border-radius: 10px;
-  border: 2px solid white;
+  border: 2px solid #fff558;
   padding: 10px;
   font-size: 20px;
   outline: none;
@@ -613,9 +618,47 @@ margin: auto;
 .msg .msgBox{
   width: 85%;
   height: 300px;
-  border: 2px solid #292727;
+  border: 2px solid #fff558;
   border-radius: 10px;
   margin-left: 28px;
   outline: none;
   padding: 10px;
+  background: transparent;
+  font-size: 20px;
+  color: #fff558;
+  resize: none;
+}
+
+::placeholder{
+  color: #f5d76e;
+}
+
+/* .msgbtn{
+  place-items:;
+} */
+.sendMsg{
+  width: 250px;
+  height: 60px;
+  margin-left: 59%;
+  margin-top: 10px;
+  border: 2px solid #C5C1C1;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  background-color: #787676;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff558;
+}
+
+.sendMsg:hover{
+  transform: scale(1.05);
+}
+
+.sendMsg img{
+  width: 40px;
+  margin-left: 10px;
 }
