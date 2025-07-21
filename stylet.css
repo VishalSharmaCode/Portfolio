@@ -583,21 +583,21 @@ margin: auto;
 
 .details-contact{
   display: flex;
-  gap: 16rem;
+  gap: 15rem;
 }
 .details-contact h1{
   font-size: 25px;
-  margin-left: 30px;
+  margin-left: 50px;
   margin-top: 20px;
 }
 
 .input-fields{  
   display: flex;
-  gap: 5rem;
+  gap: 3.5rem;
 }
 .input-fields input{
   align-items: center;
-  margin-left: 25px;
+  margin-left: 50px;
   width: 300px;
   height: 40px;
   border-radius: 10px;
@@ -610,7 +610,7 @@ margin: auto;
 
 .Your-message{
   font-size: 25px;
-  margin-left: 30px;
+  margin-left: 50px;
   margin-top: 10px;
 }
 
@@ -619,7 +619,7 @@ margin: auto;
   height: 300px;
   border: 2px solid #fff558;
   border-radius: 10px;
-  margin-left: 28px;
+  margin-left: 50px;
   outline: none;
   padding: 10px;
   background: transparent;
@@ -637,9 +637,10 @@ margin: auto;
 } */
 .sendMsg{
   width: 250px;
-  height: 60px;
-  margin-left: 59%;
-  margin-top: 10px;
+  height: 50px;
+  margin: 10px auto;
+  /* margin-left: 560px;
+  margin-top: 10px; */
   border: 2px solid #C5C1C1;
   border-radius: 8px;
   outline: none;
